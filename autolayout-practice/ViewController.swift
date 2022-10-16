@@ -21,7 +21,7 @@ class ViewController: UIViewController {
                          UIImage(named: "DiceFive"),
                          UIImage(named: "DiceSix")]
                 
-        diceImgViewOne.image = diceArr[Int.random(in: 0 ... 5)]
+        diceImageViewOne.image = diceArr[Int.random(in: 0 ... 5)]
         diceImgViewTwo.image = diceArr[Int.random(in: 0 ... 5)]
         
     }
