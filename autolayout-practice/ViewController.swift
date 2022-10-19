@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var diceImgViewOne: UIImageView!
-    @IBOutlet weak var diceImgViewTwo: UIImageView!
+    @IBOutlet weak var diceImageViewOne: UIImageView!
+    @IBOutlet weak var diceImageViewTwo: UIImageView!
    
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
